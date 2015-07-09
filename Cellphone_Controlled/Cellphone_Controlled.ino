@@ -10,9 +10,9 @@ http://exploreembedded.com/wiki/index.php?title=Explore_Robo
 
 */
 
-int MotorLeft[2] = {A0,A1};//Motor Pins
-int MotorRight[2] = {A2,A3};//Motor Pins	
-int Mobile[5]={4,5,6,7};// DTMF mobile tones
+int MotorLeft[2] = {8,9};//Motor Pins
+int MotorRight[2] = {10,11};//Motor Pins	
+int Mobile[4]={4,5,6,7};// DTMF mobile tones
 
 
 volatile int NewTone_Flag = 0;
